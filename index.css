@@ -1,0 +1,197 @@
+body{
+  margin: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  /* background-color: #1A1B21; */
+}
+
+.main--sec{
+  width: 317px;
+  height: 780px;
+  border-radius: 6px;
+  /* border: 2px solid red; */
+  margin: auto;
+  background-color: #1A1B21;
+}
+.Main--img{
+  /* width: 317; */
+  background-image: url(./images/dafss.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 317px;
+  /* border: 2px solid orange; */
+}
+.Main--con{
+  margin: 0px;
+  height: 399px;
+  /* border: 2px solid orangered; */
+}
+.Main--con > h1 {
+  margin: 0px;
+  width: 197px;
+  height: 22px;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 21px 59px 10px 61px;
+}
+.Main--con > h2{
+  margin: 0px;
+  font-size: 12.8px;
+  color: #F3BF99;
+  padding: 10px 99px 8.81px 96px;
+}
+.Main--con > p {
+  margin: 0px;
+  color: #f5f5f5;
+  font-size: 10.84px;
+  padding: 6px 109px 16px;
+}
+.mail{
+  height: 16px;
+  width: 16px;
+  background-image: url(./images/Mail.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 26.5px;
+}
+.mail--button{
+  width: 115px;
+  height: 34px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+  transition: 0.4s ease-in;
+}
+.Social--med{
+  margin: 0px;
+  display: flex;
+  column-gap: 16px;
+  margin-left: 36px;
+}
+.link{
+  height: 16px;
+  width: 16px;
+  background-image: url(./images/linkedin.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 16.5px;
+}
+.Link--button{
+  width: 115px;
+  height: 34px;
+  background-color: #5093E2;
+  border-radius: 6px;
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+  transition: 0.4s ease-in;
+}
+.Link--button > a{
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.4 ease-in;
+}
+.mail--button > a{
+  text-decoration: none;
+  color: #374151;
+  transition: 0.8 ease-in;
+}
+a:active{
+  color: orange;
+}
+.about--main{
+  width: 264px;
+  height: 211px;
+  margin: 31px 0px 0px 36px;
+  /* border: 2px solid red; */
+}
+.abt > h1{
+  margin: 0px;
+  font-size: 18px;
+  color: #ffffff;
+}
+.abt > p{
+  margin: 5px auto 8px;
+  font-size: 10.24px;
+  line-height: 15.36px;
+  color: #ffffff;
+}
+.abt > p > span{
+  color: #FFA800;
+}
+.footer--main{
+  height: 64px;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  column-gap: 24px;
+  /* margin-right: 73px; */
+  background-color: #161619;
+}
+.twitter{
+  height: 25px;
+  width: 25px;
+  /* border: 2px solid orange; */
+  margin-left: 73px;
+  background-image: url(./images/Twitter\ Icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.4s ease-in;
+}
+.fb{
+  height: 25px;
+  width: 25px;
+  /* border: 2px solid orange; */
+  background-image: url(./images/Facebook\ Icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.4s ease-in;
+}
+.insta{
+  height: 25px;
+  width: 25px;
+  /* border: 2px solid orange; */
+  background-image: url(./images/Instagram\ Icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.4s ease-in;
+}
+.git-hub{
+  height: 25px;
+  width: 25px;
+  /* border: 2px solid orange; */
+  background-image: url(./images/GitHub\ Icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.4s ease-in;
+}
+
+/* animations */
+.git-hub:hover{
+  transform: scale(1.3);
+}
+.fb:hover{
+  transform: scale(1.3);
+}
+.insta:hover{
+  transform: scale(1.3);
+}
+.twitter:hover{
+  transform: scale(1.3);
+}
+.Link--button:hover{
+  background-color: #FFA800;
+  cursor: pointer;
+}
+.Link--button:hover a{
+  color: #1A1B21;
+}
+.mail--button:hover{
+  background-color: #5093E2;
+  cursor: pointer;
+}
+.mail--button:hover a{
+  color: #ffffff;
+}
